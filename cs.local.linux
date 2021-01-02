@@ -1,0 +1,20 @@
+time find . \( -name '[^.]*.[chsS]' -or \
+                  -name '[^.]*.asm' -or         \
+                  -name '[^.]*.cpp' -or         \
+                  -name '[^.]*.CPP' -or         \
+                  -name '[^.]*.dd' -or          \
+                  -name '[^.]*.conf' -or        \
+                  -name '[^.]*.gram' -or        \
+                  -name '[^.]*.errmsg' -or      \
+                  -name '[^.]*.sdb' -or         \
+                  -name '[^.]*.indb' -or        \
+                  -name 'Module' -or            \
+                  -name '[^.]*.idl' -or         \
+                  -name '[^.]*.odl' -or         \
+                  -name '[^.]*.gdb' -or         \
+                  -name 'Makefile*' \) > cs.files
+if [ "$(uname)" == "Linux" ]; then
+grep -v '/.svn/' cs.files > cscope.files; /usr/bin/ctags -L cscope.files; cscope -Rkqb; mkid
+else
+grep -v '/.svn/' cs.files > cscope.files; ctags -L cscope.files; cscope -Rkqb; mkid
+fi
