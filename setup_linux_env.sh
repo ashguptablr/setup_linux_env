@@ -31,7 +31,6 @@ sudo apt install -y tmux=1.9a-1~ppa1~t
 sudo apt install -y rlwrap
 sudo apt install -y ack-grep
 sudo apt install -y exuberant-ctags
-sudo apt install -y build-essentials
 sudo apt install -y python-dev
 sudo apt install -y ipython
 mkdir -p ~/src
@@ -47,4 +46,3 @@ ln -s ~/setup_linux_env/.vimrc ~/.vimrc
   
 rm -rf ~/.bash_history
 cp ~/setup_linux_env/.bash_history ~/
-bash
