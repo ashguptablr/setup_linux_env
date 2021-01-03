@@ -1,0 +1,26 @@
+pane	0	1	:bash	0	:#Z	0	:/homes/ashgupta	0	vim	:vim /homes/ashgupta/.tmux.conf
+/bin/bash /volume/baas_devops/baas/baas-service/baas-cli/bin/baas edit -s pr-1519008-dcb-latest-dec6
+pane	0	1	:bash	0	:#Z	1	:/homes/ashgupta	1	bash	:bash
+pane	0	1	:bash	0	:#Z	2	:/homes/ashgupta	0	bash	:
+pane	0	2	:go	0	:	0	:/homes/ashgupta	0	bash	:
+pane	0	2	:go	0	:	1	:/homes/ashgupta	0	bash	:
+pane	0	2	:go	0	:	2	:/homes/ashgupta	1	bash	:/bin/bash /volume/baas_devops/.prod/releases/20201218054340/bin/kshell -n shrih -p qnc-c0-edit-106b8018-a272-473a-a09d-b89c006d015f -o shrih -m edit-shrih -c -- /bin/tcsh -c "cd /baas/shrih/vol1;exec ${SHELL:-/bin/tcsh}"
+kubectl exec -it -n shrih qnc-c0-edit-106b8018-a272-473a-a09d-b89c006d015f -c edit-shrih env COLUMNS=135 LINES=36 TERM=xterm USER=shrih LOGNAME=shrih POD_NAME=qnc-c0-edit-106b8018-a272-473a-a09d-b89c006d015f POD_OWNER=shrih PATH=/volume/baas_devops/.prod/releases/20201218054340/bin:/volume/baas_devops/baas/baas_env/bin:/volume/baas_devops/.prod/baas-cli/bin:/usr/bin:/volume/buildtools/bin:/sbin:/bin:/usr/sbin:/usr/local/sbin:/usr/local/bin:/usr/X11R6/bin:/volume/fsgtools/build-tools/yocto-build:/evo/files/share/buildtools/sandbox-tools/bin:/volume/evo/files/share/buildtools/sandbox-tools/bin:/volume/sw-tools/builder/bin:/volume/hab/Linux/Ubuntu-12.04/x86_64/debug-tools/bin:/evo/files/share/buildtools/sandbox-tools/bin:/homes/shrih/bin/lnx:/homes/shrih/yocto-build:/homes/shrih/bin:/volume/evo/files/share/buildtools/sandbox-tools/bin:/sbin:/bin:/usr/sbin:/usr/bin:/usr/games:/usr/X11R6/bin:/homes/shrih/bin:/volume/labtools/bin:/usr/local/bin:/volume/labtools/labadmin/bin:/evo/files/share/buildtools:/volume/perl/bin:/volume/buildtools/bin/:/volume/perl/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/homes/shrih/sshpass/sshpass-1.06:/volume/labtools/bin su-exec shrih -- /bin/tcsh -c cd /baas/shrih/vol1;exec /bin/tcsh
+pane	0	3	:cMX	0	:	0	:/homes/ashgupta	0	bash	:ssh ttsv-shell109
+pane	0	3	:cMX	0	:	1	:/homes/ashgupta	0	bash	:ssh root@10.102.227.174
+pane	0	3	:cMX	0	:	2	:/homes/ashgupta	1	bash	:
+pane	0	4	:customers	0	:	0	:/homes/ashgupta	0	bash	:
+pane	0	4	:customers	0	:	1	:/homes/ashgupta	1	bash	:
+pane	0	5	:EVO	0	:-Z	0	:/homes/ashgupta	1	baas	:bash
+pane	0	5	:EVO	0	:-Z	1	:/homes/ashgupta	0	baas	:bash
+pane	0	5	:EVO	0	:-Z	2	:/homes/ashgupta	0	bash	:
+pane	0	6	:exp	1	:*Z	0	:/homes/ashgupta	0	ssh	:bash
+pane	0	6	:exp	1	:*Z	1	:/homes/ashgupta	0	ssh	:ssh q-pod05-vmm
+pane	0	6	:exp	1	:*Z	2	:/homes/ashgupta	1	ssh	:ssh q-pod05-vmm
+window	0	1	0	:#Z	ca41,178x40,0,0[178x20,0,0,1,178x19,0,21{89x19,0,21,2,88x19,90,21,3}]
+window	0	2	0	:	d207,178x39,0,0{89x39,0,0,4,88x39,90,0[88x19,90,0,5,88x19,90,20,6]}
+window	0	3	0	:	0352,178x39,0,0{89x39,0,0,7,44x39,90,0,8,43x39,135,0,9}
+window	0	4	0	:	9770,178x39,0,0{89x39,0,0,10,88x39,90,0,11}
+window	0	5	0	:-Z	b8a3,178x40,0,0{89x40,0,0,12,88x40,90,0[88x20,90,0,13,88x19,90,21,14]}
+window	0	6	1	:*Z	f965,178x40,0,0{89x40,0,0,15,88x40,90,0[88x20,90,0,16,88x19,90,21,17]}
+state	0	

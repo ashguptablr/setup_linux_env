@@ -1,0 +1,57 @@
+pane	0	1	:root@mx86-bgl-5:~	0	:#!-Z	0	:/homes/ashgupta	0	bash	:bash
+pane	0	1	:root@mx86-bgl-5:~	0	:#!-Z	1	:/homes/ashgupta	0	bash	:bash
+pane	0	1	:root@mx86-bgl-5:~	0	:#!-Z	2	:/homes/ashgupta	1	bash	:
+pane	0	1	:root@mx86-bgl-5:~	0	:#!-Z	3	:/homes/ashgupta/bin	0	bash	:bash
+pane	0	1	:root@mx86-bgl-5:~	0	:#!-Z	4	:/homes/ashgupta	0	vim	:vim /homes/ashgupta/.bashrc
+pane	0	2	:learning	0	:#!	0	:/homes/ashgupta	0	bash	:
+pane	0	2	:learning	0	:#!	1	:/homes/ashgupta	1	bash	:
+pane	0	2	:learning	0	:#!	2	:/homes/ashgupta	0	bash	:bash
+pane	0	3	:expr	0	:#!	0	:/homes/ashgupta	1	bash	:
+pane	0	3	:expr	0	:#!	1	:/homes/ashgupta	0	bash	:
+pane	0	4	:crystalnet	0	:#!	0	:/homes/ashgupta	1	bash	:bash
+pane	0	4	:crystalnet	0	:#!	1	:/homes/ashgupta	0	bash	:
+pane	0	5	:POD	0	:#!	0	:/homes/ashgupta	0	bash	:
+pane	0	5	:POD	0	:#!	1	:/homes/ashgupta	0	bash	:bash
+pane	0	5	:POD	0	:#!	2	:/homes/ashgupta	0	bash	:bash
+pane	0	5	:POD	0	:#!	3	:/homes/ashgupta	0	bash	:
+pane	0	5	:POD	0	:#!	4	:/homes/ashgupta	1	bash	:bash
+pane	0	6	:qnc	0	:	0	:/homes/ashgupta	0	bash	:bash
+pane	0	6	:qnc	0	:	1	:/homes/ashgupta	0	bash	:bash
+pane	0	6	:qnc	0	:	2	:/homes/ashgupta	1	bash	:
+pane	0	6	:qnc	0	:	3	:/homes/ashgupta	0	bash	:bash
+pane	0	7	:baas	1	:*Z	0	:/homes/ashgupta	1	baas	:bash
+pane	0	7	:baas	1	:*Z	1	:/homes/ashgupta	0	bash	:
+pane	0	7	:baas	1	:*Z	2	:/homes/ashgupta	0	bash	:bash
+pane	0	7	:baas	1	:*Z	3	:/homes/ashgupta	0	bash	:bash
+/bin/bash /volume/baas_devops/baas/baas-service/baas-cli/bin/baas edit -s dcb-prebuilt-22-oct
+/bin/bash /volume/baas_devops/baas/baas-service/baas-cli/bin/baas edit -s branch3prodbuild -ip
+vim -X HowTos@Work.txt
+/bin/bash /volume/baas_devops/baas/baas-service/baas-cli/bin/baas edit -s rli-45000 -m buildcontainer
+baas edit -s jsu-vmhost
+ssh elpod2-vmm
+pane	0	7	:baas	1	:*Z	4	:/homes/ashgupta	0	bash	:
+pane	0	7	:baas	1	:*Z	5	:/homes/ashgupta	0	bash	:
+pane	0	7	:baas	1	:*Z	6	:/homes/ashgupta	0	bash	:bash
+pane	0	7	:baas	1	:*Z	7	:/homes/ashgupta	0	bash	:bash
+pane	0	8	:root@overcloud-contraildpdk-0:~	0	:#	0	:/homes/ashgupta	1	bash	:bash
+pane	0	8	:root@overcloud-contraildpdk-0:~	0	:#	1	:/homes/ashgupta	0	bash	:bash
+pane	0	8	:root@overcloud-contraildpdk-0:~	0	:#	2	:/homes/ashgupta	0	bash	:
+pane	0	8	:root@overcloud-contraildpdk-0:~	0	:#	3	:/homes/ashgupta	0	bash	:
+pane	0	8	:root@overcloud-contraildpdk-0:~	0	:#	4	:/homes/ashgupta	0	bash	:
+pane	0	8	:root@overcloud-contraildpdk-0:~	0	:#	5	:/homes/ashgupta	0	vim	:vim /homes/ashgupta/.vmmgr/enpod3-vmm.englab.juniper.net.config.db
+pane	0	8	:root@overcloud-contraildpdk-0:~	0	:#	6	:/homes/ashgupta	0	bash	:
+pane	0	9	:cmx	0	:#Z	0	:/homes/ashgupta	0	bash	:bash
+pane	0	9	:cmx	0	:#Z	1	:/homes/ashgupta	1	bash	:bash
+bash
+/bin/bash /volume/baas_devops/.prod/baas-cli/bin/baas edit -s test2
+python /volume/baas_devops/.prod/baas-cli/bin/../lib/edit_pvc.py -p test2 -u bsrilatha
+window	0	1	0	:#!-Z	c075,178x39,0,0[178x20,0,0{89x20,0,0,1,88x20,90,0,30},178x18,0,21{112x18,0,21,7,65x18,113,21{29x18,113,21,8,35x18,143,21,23}}]
+window	0	2	0	:#!	1cff,178x39,0,0[178x9,0,0,11,178x9,0,10,12,178x19,0,20,13]
+window	0	3	0	:#!	177d,178x39,0,0{89x39,0,0,15,88x39,90,0,16}
+window	0	4	0	:#!	1782,178x39,0,0{89x39,0,0,17,88x39,90,0,18}
+window	0	5	0	:#!	b6a8,178x39,0,0[178x20,0,0{89x20,0,0,19,88x20,90,0[88x10,90,0,20,88x9,90,11,32]},178x18,0,21{89x18,0,21,21,88x18,90,21,22}]
+window	0	6	0	:	46d9,178x39,0,0[178x19,0,0{89x19,0,0,41,88x19,90,0,31},178x19,0,20{89x19,0,20,29,88x19,90,20,40}]
+window	0	7	1	:*Z	4884,178x39,0,0[178x19,0,0{89x19,0,0[89x9,0,0,34,89x9,0,10,61],88x19,90,0,38},178x19,0,20{89x19,0,20[89x9,0,20,35,89x9,0,30{39x9,0,30,42,49x9,40,30,43}],88x19,90,20[88x9,90,20,37,88x9,90,30,39]}]
+window	0	8	0	:#	8850,178x39,0,0{52x39,0,0[52x17,0,0,44,52x21,0,18,53],125x39,53,0[125x6,53,0,45,125x7,53,7,47,125x7,53,15{59x7,53,15,49,65x7,113,15,55},125x16,53,23,56]}
+window	0	9	0	:#Z	944c,178x39,0,0[178x19,0,0,54,178x19,0,20,60]
+state	0	

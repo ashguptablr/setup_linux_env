@@ -1,0 +1,16 @@
+pane	0	1	:cmx	0	:Z	0	:/homes/ashgupta	1	baas	:bash
+pane	0	1	:cmx	0	:Z	1	:/homes/ashgupta	0	baas	:bash
+pane	0	1	:cmx	0	:Z	2	:/homes/ashgupta	0	bash	:
+pane	0	1	:cmx	0	:Z	3	:/homes/ashgupta	0	ssh	:bash
+pane	0	1	:cmx	0	:Z	4	:/homes/ashgupta	0	bash	:
+pane	0	1	:cmx	0	:Z	5	:/homes/ashgupta	0	baas	:bash
+pane	0	1	:cmx	0	:Z	6	:/homes/ashgupta	0	ssh	:bash
+pane	0	1	:cmx	0	:Z	7	:/homes/ashgupta	0	ssh	:bash
+pane	0	2	:opensrc	0	:	0	:/homes/ashgupta	1	bash	:
+pane	0	3	:expr	1	:*	0	:/homes/ashgupta	1	bash	:
+pane	0	4	:crystalnet	0	:-	0	:/homes/ashgupta	1	bash	:
+window	0	1	0	:Z	cb2e,198x40,0,0[198x20,0,0{49x20,0,0,0,77x20,50,0,4,70x20,128,0,3},198x19,0,21{49x19,0,21,1,77x19,50,21,5,70x19,128,21[70x9,128,21,2,70x4,128,31,6,70x4,128,36,7]}]
+window	0	2	0	:	b0c5,198x40,0,0,8
+window	0	3	1	:*	b0c6,198x40,0,0,9
+window	0	4	0	:-	588f,198x40,0,0,10
+state	0	

@@ -1,0 +1,31 @@
+pane	0	1	:bash	0	:Z	0	:/homes/ashgupta	0	vim	:vim /homes/ashgupta/.tmux.conf
+/bin/bash /volume/baas_devops/baas/baas-service/baas-cli/bin/baas edit -s pr-1519008-dcb-latest-dec6
+pane	0	1	:bash	0	:Z	1	:/homes/ashgupta	1	bash	:bash
+pane	0	1	:bash	0	:Z	2	:/homes/ashgupta	0	bash	:
+pane	0	2	:go	0	:	0	:/homes/ashgupta	0	bash	:
+pane	0	2	:go	0	:	1	:/homes/ashgupta	0	bash	:
+pane	0	2	:go	0	:	2	:/homes/ashgupta	1	bash	:
+pane	0	3	:cMX	0	:	0	:/homes/ashgupta	0	bash	:ssh ttsv-shell109
+pane	0	3	:cMX	0	:	1	:/homes/ashgupta	0	bash	:ssh root@10.102.227.139
+pane	0	3	:cMX	0	:	2	:/homes/ashgupta	1	bash	:
+pane	0	4	:customers	0	:	0	:/homes/ashgupta	0	bash	:
+pane	0	4	:customers	0	:	1	:/homes/ashgupta	1	bash	:
+pane	0	5	:EVO	1	:*Z	0	:/homes/ashgupta	1	baas	:bash
+pane	0	5	:EVO	1	:*Z	1	:/homes/ashgupta	0	baas	:baas edit -m buildcontainer -p evo -l ubuntu16 -ip -s evoq
+pane	0	5	:EVO	1	:*Z	2	:/homes/ashgupta	0	baas	:bash
+pane	0	5	:EVO	1	:*Z	3	:/homes/ashgupta	0	baas	:baas edit -m buildcontainer -p evo -l ubuntu16 -ip -s evoq
+pane	0	5	:EVO	1	:*Z	4	:/homes/ashgupta	0	bash	:
+pane	0	6	:Linux	0	:-Z	0	:/homes/ashgupta	0	bash	:bash
+pane	0	6	:Linux	0	:-Z	1	:/homes/ashgupta/evo/bin	1	ssh	:ssh q-pod05-vmm
+pane	0	6	:Linux	0	:-Z	2	:/homes/ashgupta	0	bash	:
+pane	0	6	:Linux	0	:-Z	3	:/homes/ashgupta	0	baas	:baas edit -m buildcontainer -p evo -l ubuntu16 -ip -s evoq
+pane	0	7	:Crystalnet	0	:Z	0	:/homes/ashgupta	0	vim	:vim /homes/ashgupta/public_html/microsoft
+pane	0	7	:Crystalnet	0	:Z	1	:/homes/ashgupta	1	ssh	:ssh ccl@10.13.139.90
+window	0	1	0	:Z	7c6a,178x39,0,0[178x19,0,0,1,178x19,0,20{89x19,0,20,2,88x19,90,20,3}]
+window	0	2	0	:	d207,178x39,0,0{89x39,0,0,4,88x39,90,0[88x19,90,0,5,88x19,90,20,6]}
+window	0	3	0	:	0352,178x39,0,0{89x39,0,0,7,44x39,90,0,8,43x39,135,0,9}
+window	0	4	0	:	9770,178x39,0,0{89x39,0,0,10,88x39,90,0,11}
+window	0	5	1	:*Z	1ac6,198x40,0,0{99x40,0,0[99x20,0,0,12,99x19,0,21,22],98x40,100,0[98x10,100,0,13,98x10,100,11,21,98x18,100,22,14]}
+window	0	6	0	:-Z	4e2e,198x40,0,0{99x40,0,0[99x20,0,0,15,99x19,0,21,18],98x40,100,0[98x20,100,0,16,98x19,100,21,17]}
+window	0	7	0	:Z	b139,178x40,0,0{89x40,0,0,19,88x40,90,0,20}
+state	0	

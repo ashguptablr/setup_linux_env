@@ -1,0 +1,26 @@
+pane	0	1	:bash	0	:-Z	0	:/homes/ashgupta	0	vim	:vim /homes/ashgupta/.tmux.conf
+/bin/bash /volume/baas_devops/baas/baas-service/baas-cli/bin/baas edit -s pr-1519008-dcb-latest-dec6
+pane	0	1	:bash	0	:-Z	1	:/homes/ashgupta	1	bash	:bash
+pane	0	1	:bash	0	:-Z	2	:/homes/ashgupta	0	bash	:
+pane	0	2	:go	0	:	0	:/homes/ashgupta	0	bash	:
+pane	0	2	:go	0	:	1	:/homes/ashgupta	0	bash	:
+pane	0	2	:go	0	:	2	:/homes/ashgupta	1	bash	:
+pane	0	3	:cMX	0	:	0	:/homes/ashgupta	0	bash	:ssh ttsv-shell109
+pane	0	3	:cMX	0	:	1	:/homes/ashgupta	0	bash	:
+pane	0	3	:cMX	0	:	2	:/homes/ashgupta	1	bash	:
+pane	0	4	:customers	0	:	0	:/homes/ashgupta	0	bash	:
+pane	0	4	:customers	0	:	1	:/homes/ashgupta	1	bash	:
+pane	0	5	:EVO	0	:#Z	0	:/homes/ashgupta	1	baas	:bash
+pane	0	5	:EVO	0	:#Z	1	:/homes/ashgupta	0	baas	:bash
+pane	0	5	:EVO	0	:#Z	2	:/homes/ashgupta	0	bash	:
+pane	0	6	:Linux	1	:*Z	0	:/homes/ashgupta	1	ssh	:bash
+pane	0	6	:Linux	1	:*Z	1	:/homes/ashgupta/evo/bin	0	ssh	:ssh q-pod05-vmm
+pane	0	6	:Linux	1	:*Z	2	:/homes/ashgupta	0	bash	:
+pane	0	6	:Linux	1	:*Z	3	:/homes/ashgupta	0	ssh	:ssh q-pod05-vmm
+window	0	1	0	:-Z	7c6a,178x39,0,0[178x19,0,0,1,178x19,0,20{89x19,0,20,2,88x19,90,20,3}]
+window	0	2	0	:	d207,178x39,0,0{89x39,0,0,4,88x39,90,0[88x19,90,0,5,88x19,90,20,6]}
+window	0	3	0	:	0352,178x39,0,0{89x39,0,0,7,44x39,90,0,8,43x39,135,0,9}
+window	0	4	0	:	9770,178x39,0,0{89x39,0,0,10,88x39,90,0,11}
+window	0	5	0	:#Z	7df8,178x39,0,0{89x39,0,0,12,88x39,90,0[88x19,90,0,13,88x19,90,20,14]}
+window	0	6	1	:*Z	ef15,178x39,0,0{89x39,0,0[89x19,0,0,15,89x19,0,20,18],88x39,90,0[88x19,90,0,16,88x19,90,20,17]}
+state	0	

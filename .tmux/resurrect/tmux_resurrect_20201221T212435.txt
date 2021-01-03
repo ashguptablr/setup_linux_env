@@ -1,0 +1,15 @@
+pane	0	1	:bash	1	:*	0	:/homes/ashgupta	1	bash	:
+pane	0	1	:bash	1	:*	1	:/homes/ashgupta	0	bash	:
+pane	0	1	:bash	1	:*	2	:/homes/ashgupta	0	bash	:
+pane	0	2	:go	0	:	0	:/homes/ashgupta	0	bash	:
+pane	0	2	:go	0	:	1	:/homes/ashgupta	0	bash	:
+pane	0	2	:go	0	:	2	:/homes/ashgupta	1	bash	:
+pane	0	3	:cMX	0	:-	0	:/homes/ashgupta	0	bash	:
+pane	0	3	:cMX	0	:-	1	:/homes/ashgupta	0	bash	:
+pane	0	3	:cMX	0	:-	2	:/homes/ashgupta	1	bash	:
+pane	0	4	:customers	0	:	0	:/homes/ashgupta	1	bash	:
+window	0	1	1	:*	3c6e,178x39,0,0[178x19,0,0,1,178x19,0,20{89x19,0,20,5,88x19,90,20,6}]
+window	0	2	0	:	500a,178x39,0,0{89x39,0,0,2,88x39,90,0[88x19,90,0,7,88x19,90,20,8]}
+window	0	3	0	:-	81de,178x39,0,0{89x39,0,0,3,44x39,90,0,9,43x39,135,0,10}
+window	0	4	0	:	d241,178x39,0,0,4
+state	0	
