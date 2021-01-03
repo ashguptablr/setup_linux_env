@@ -360,4 +360,5 @@ vim ~/.bash_history
 exit
 cd src/buildroot/
 ls -rlt 
+git push -u origin main
 exit
