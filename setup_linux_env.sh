@@ -4,6 +4,7 @@ clear
 
 apt-get update
 sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+add-apt-repository -y ppa:pi-rho/dev
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
 sudo apt update
@@ -23,11 +24,7 @@ pip install virtualenvwrapper
 mkdir -p ~/.venvs && chown $(logname) ~/.venvs
 sudo apt install -y vim
 sudo apt install -y tmux
-apt-get update
 sudo apt install -y python-software-properties software-properties-common
-add-apt-repository -y ppa:pi-rho/dev
-apt-get update
-sudo apt install -y tmux=1.9a-1~ppa1~t
 sudo apt install -y rlwrap
 sudo apt install -y ack-grep
 sudo apt install -y exuberant-ctags
