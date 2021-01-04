@@ -361,4 +361,5 @@ exit
 cd src/buildroot/
 ls -rlt 
 git push -u origin main
+git config --global credential.helper cache
 exit
