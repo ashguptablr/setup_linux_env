@@ -6,10 +6,10 @@ cd ~/src
 git clone https://kernel.googlesource.com/pub/scm/linux/kernel/git/next/linux-next.git
 cd linux-next/
 cp ~/src/cs.local.linux .
-cp .config.linux .config
 git checkout master
 git fetch origin
 git reset --hard remotes/origin/master
+cp ~/setup_linux_env/.config.linux .config
 ./cs.local.linux
 make -j8
 
