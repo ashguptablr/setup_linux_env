@@ -546,8 +546,7 @@ map ,b :vsp ~/.bashrc<cr> " update the system settings from my vimrc file
 "nnoremap <silent> <F3> :Grep <C-R><C-W><CR> 
 
 "Lid plugin stuff
-":let LID_Cmd='/usr/local/bin/gid'
-:let LID_Cmd='/volume/buildtools/bin/lid'
+:let LID_Cmd='/usr/bin/lid'
 nnoremap <silent> <F5> :Lid <C-R><C-W><CR> 
 nnoremap <silent> <F6> :cnext<CR> 
 nnoremap <silent> <F7> :cprev<CR> 

@@ -30,6 +30,20 @@ sudo apt install -y ack-grep
 sudo apt install -y exuberant-ctags
 sudo apt install -y python-dev
 sudo apt install -y ipython
+
+# redis server
+apt-get install redis-server
+
+#install npm
+apt install npm
+
+#install meson
+apt-get remove meson
+apt-get install -y python3-pip
+apt-get purge meson -y
+pip3 install meson
+ln -s /usr/local/bin/meson /usr/bin/meson
+
 mkdir -p ~/src
   
 rm -rf ~/.tmux ~/.tmux.conf

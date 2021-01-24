@@ -21,6 +21,9 @@ elif [ "$1x" == "gox" ]; then
         echo "export PATH=$PATH:/usr/local/go/bin" >> ~/.profile
 	source ~/.profile
 	go version
+elif [ "$1x" == "vppx" ]; then
+        #check out vpp src
+        git clone https://gerrit.fd.io/r/vpp
 fi
 
 if [ "$1x" == "linuxx" ]; then
